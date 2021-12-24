@@ -9,18 +9,6 @@ public class Hangar : MonoBehaviour
 
     public TextMeshPro HangarNumberDisplay;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void SetNumberInTextMesh()
     {
         HangarNumberDisplay.text = number.ToString();

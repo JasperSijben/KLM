@@ -62,11 +62,6 @@ public class Manager : MonoBehaviour
         planeAI.isParked = true;
     }
 
-    private void TurnOnParkingLight(GameObject hangar)
-    {
-        hangar.GetComponentInChildren<Light>().color = Color.green;
-    }
-
     public void OnClickLight()
     {
         foreach (GameObject plane in Planes)
